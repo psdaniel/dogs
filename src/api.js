@@ -79,7 +79,7 @@ export function PHOTO_GET(id) {
   }
 }
 
-export function PHOTO_GET(id) {
+export function PHOTO_GETS(id) {
   return {
     url: `${API_URL}/api/photo/${id}`,
     options: {
